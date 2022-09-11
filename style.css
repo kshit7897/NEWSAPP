@@ -6,7 +6,56 @@
 
 h1{
     text-align: center;
-    background-color: rgb(160, 76, 76);
+    background-color: rgba(3, 3, 44, 0.808);
     color: white;
-    line-height: 5rem;
+    line-height: 3rem;
+}
+
+.main-img{
+    text-align: center;
+    padding-top: 2rem;
+}
+.earth{
+    width: 8rem;
+}
+
+.input{
+    text-align: center;
+}
+.newsinput{
+    width: 20rem;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 6px;
+    /* border: none; */
+    outline: none;
+    box-shadow: 5px 5px 5px  rgb(36, 4, 4);
+}
+
+.search{
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px  rgb(36, 4, 4);
+    cursor: pointer;
+}
+.disply-item{
+    margin-top: 2rem;
+    height: auto;
+    background-color: rgb(144, 144, 182);
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.breaking-img{
+    width: 250px;
+}
+.head-line{
+    margin-left: 5px;
+}
+.mainpara{
+    margin-left: 2rem;
 }
