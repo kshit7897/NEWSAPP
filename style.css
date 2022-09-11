@@ -39,23 +39,12 @@ h1{
     box-shadow: 5px 5px 5px  rgb(36, 4, 4);
     cursor: pointer;
 }
-.disply-item{
+
+/* .disply-item{
     margin-top: 2rem;
-    height: auto;
-    background-color: rgb(144, 144, 182);
+    background-color: rgb(184, 170, 170);
     margin-left: 3rem;
     margin-right: 3rem;
-    border: 1px solid;
-    display: flex;
-    align-items: center;
-    /* justify-content: space-between; */
-}
-.breaking-img{
-    width: 250px;
-}
-.head-line{
-    margin-left: 5px;
-}
-.mainpara{
-    margin-left: 2rem;
-}
+    height: auto;
+    border: 1px solid black;
+} */
