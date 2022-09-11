@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .heading{
     text-align: center;
     background-color: rgba(8, 8, 58, 0.87);
@@ -16,7 +17,7 @@
     text-align: center;
 }
 input{
-    width: 20rem;
+    width: 25rem;
     font-size: 18px;
     padding: 4px;
     border-radius: 6px;
@@ -45,14 +46,30 @@ input{
 }
 
 img{
-    margin-top: 1rem;
+    margin-top: 2rem;
     width: 30rem;
+    border-radius: 8px;
+}
+
+p{
+    margin-bottom: 1rem;
 }
 
 .input_div{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center; 
+}
+
+.container{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.displayItem{
+    border-bottom: 2px solid grey;
+    border-top:2px solid grey ;
+    background-color: #83d1cf3b;
+    margin-top: 2rem;
+    text-align: center;
 }
 
 /* .disply-item{

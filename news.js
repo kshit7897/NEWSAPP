@@ -14,7 +14,7 @@ searchBtn.addEventListener('click',function(event){
         console.log(data)
         for(let i=0;i<10;i++){
             let article = articles[i]
-            let display = `<div>
+            let display = `<div class="displayItem">
                 <img src=${article["urlToImage"]}>
                 <h1>${article["title"]} </h1>
                 <p>${article["author"]}</p>
