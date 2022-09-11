@@ -14,14 +14,14 @@ searchBtn.addEventListener('click',function(event){
         console.log(data)
         for(let i=0;i<10;i++){
             let article = articles[i]
-            let html = `<div>
+            let display = `<div>
                 <img src=${article["urlToImage"]}>
                 <h1>${article["title"]} </h1>
                 <p>${article["author"]}</p>
                 <p>${article["description"]} <a href=${article["url"]}>Read more</a> </p>
               </div>`
 
-            container.innerHTML+=html
+            container.innerHTML+=display
           
             
         }

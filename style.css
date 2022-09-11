@@ -4,25 +4,18 @@
     box-sizing: border-box;
 }
 
-h1{
+.heading{
     text-align: center;
-    background-color: rgba(3, 3, 44, 0.808);
-    color: white;
+    background-color: rgba(8, 8, 58, 0.87);
     line-height: 3rem;
+    color: white;
 }
 
-.main-img{
-    text-align: center;
-    padding-top: 2rem;
-}
-.earth{
-    width: 8rem;
-}
 
 .input{
     text-align: center;
 }
-.newsinput{
+input{
     width: 20rem;
     font-size: 18px;
     padding: 4px;
@@ -32,12 +25,34 @@ h1{
     box-shadow: 5px 5px 5px  rgb(36, 4, 4);
 }
 
-.search{
+.btn{
     font-size: 18px;
     padding: 4px;
     border-radius: 6px;
     box-shadow: 5px 5px 5px  rgb(36, 4, 4);
     cursor: pointer;
+}
+
+.earthbox{
+    text-align: center;
+}
+
+.earth{
+    width: 8rem;
+    text-align: center;
+    /* margin-left: 50%; */
+    margin-top: 2rem;
+}
+
+img{
+    margin-top: 1rem;
+    width: 30rem;
+}
+
+.input_div{
+    display: flex;
+    justify-content: center;
+    
 }
 
 /* .disply-item{
